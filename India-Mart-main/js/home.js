@@ -1,3 +1,4 @@
+// Buttons and input fields ko getElementById se access kiya gaya hai
 let search_btn = document.getElementById('search-btn');
     let search = document.getElementById('searchbar');
     let tell_us = document.getElementById('tellusinput');
