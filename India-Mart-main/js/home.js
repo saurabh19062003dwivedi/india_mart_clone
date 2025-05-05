@@ -9,6 +9,7 @@ let search_btn = document.getElementById('search-btn');
     tell_us_btn.addEventListener('click',function(){
         goto_search_page(tell_us);
     })
+// Search button par click karne par bhi search page par redirect hota hai
     search_btn.addEventListener('click', function(){
         goto_search_page(search);
     });
