@@ -5,7 +5,7 @@ let search_btn = document.getElementById('search-btn');
     let tell_us_btn = document.getElementById('tell-us-btn')
     
     let reg = document.getElementById('reg');
-
+// Tell Us button par click karne par search page par redirect hota hai
     tell_us_btn.addEventListener('click',function(){
         goto_search_page(tell_us);
     })
