@@ -12,7 +12,7 @@ let search_btn = document.getElementById('search-btn');
         goto_search_page(search);
     });
     
-
+// actually i'm using  function is goto_search_page for the searvching the page 
     function goto_search_page(str){
         
             localStorage.setItem('search',JSON.stringify(str.value))
